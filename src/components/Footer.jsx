@@ -1,5 +1,5 @@
 import React from "react";
-import path from "../assets/icons/path.png";
+import path from "../assets/icons/Path.png";
 import logo from "../assets/icons/Group.png";
 import IG from "../assets/icons/IGlogo.png";
 import FB from "../assets/icons/FBlogo.png";
