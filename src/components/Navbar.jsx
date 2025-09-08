@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/icons/logo.png";
-import path from "../assets/icons/path.png";
+import path from "../assets/icons/Path.png";
 import shape from "../assets/icons/Shape.png";
 import { Link } from "react-router-dom";
 
