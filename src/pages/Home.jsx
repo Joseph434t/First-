@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Content from "../components/Content";
 import Apartments from "../components/Apartments";
-import ContentFoot from "../components/Content foot";
+import ContentFoot from "../components/ContentFoot";
 import Content2 from "../components/Content2";
 import Footer from "../components/Footer";
 import Testimonail from "../components/Testimonial";

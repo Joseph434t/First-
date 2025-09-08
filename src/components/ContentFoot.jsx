@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from "../assets/images/contentfoot.png";
+import img1 from "../assets/images/Contentfoot.png";
 import Path1 from "../assets/icons/Path1.png";
 import Line from "../assets/icons/Line.png";
 
-export default function () {
+export default function ContentFoot() {
   return (
     <div>
       <div className="flex mt-40">

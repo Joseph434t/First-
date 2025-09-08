@@ -6,7 +6,7 @@ import Exp2 from "../assets/images/Exp2.png";
 import Exp3 from "../assets/images/Exp3.png";
 import Exp4 from "../assets/images/Exp4.png";
 import Exp5 from "../assets/images/Exp5.png";
-import Exp6 from "../assets/images/Exp5.png";
+import Exp6 from "../assets/images/Exp1.png";
 import bed from "../assets/icons/bed.png";
 import Shower from "../assets/icons/Shower.png";
 import size from "../assets/icons/size.png";
@@ -137,7 +137,7 @@ export default function Apartments() {
             </a>
           </p>
           <p class="font-semibold text-[25px]">
-            <img src={Exp1} alt="" class="pb-5" />
+            <img src={Exp6} alt="" class="pb-5" />
             <a href="">
               Malto House
               <div class="flex gap-12 items-center justify-center">
