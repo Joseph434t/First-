@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
-      <nav class="flex justify-between p-7 px-50">
+      <nav class="flex justify-between sm:flex justify-between p-7 px-50 md:">
         <div class="flex gap-2 items-center">
           <Link to="/" className="flex gap-2 items-center">
             <img src={shape} alt="" class="h-10" />
@@ -18,20 +18,20 @@ export default function Navbar() {
           <Link to='/about'>
             About
           </Link>
-          <li>
+          <Link to='/services'>
             <a href="">Nav Link</a>
-          </li>
-          <li>
+          </Link>
+          <Link to='/projects'>
             <a href="">Nav Link</a>
-          </li>
-          <li>
+          </Link>
+          <Link to='/blog'>
             <a href="">Nav Link</a>
-          </li>
-          <li class="px-4 py-3 bg-yellow-500 text-black rounded-tr-2xl">
+          </Link>
+          <Link to='' class="px-4 py-3 bg-yellow-500 text-black rounded-tr-2xl">
             <a href="" className="flex items-center ">
               Work with us <img src={path} alt="" className="h-fit ml-2" />
             </a>
-          </li>
+          </Link>
         </ul>
       </nav>
     </div>
