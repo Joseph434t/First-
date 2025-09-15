@@ -14,18 +14,18 @@ export default function () {
 
         <div class="absolute inset-0">
           <Navbar />
-          <div class="">
-            <h1 class="px-40 mt-7 max-w-7/12 text-white text-7xl font-semibold">
+          <div>
+            <h1 class="font-bold text-4xl px-20 max-w-100 md:px-40 lg:px-40 mt-7 md:max-w-7/12 text-white md:text-7xl md:font-semibold">
               Beautiful homes made for you
             </h1>
 
-            <p class=" px-40 max-w-10/20 mt-10 text-white">
+            <p class="px-20 max-w-130 md:max-w-180 md:px-40 max-w-10/20 mt-10 text-white">
               In oculis quidem se esse admonere interesse enim maxime placeat,
               facere possimus, omnis. Et quidem faciunt, ut labore et accurate
               disserendum et harum quidem exercitus quid.
             </p>
 
-            <p class="mt-30 bg-white mx-60 p-5 font-semibold">
+            <p class="mx-20 mt-30 bg-white md:mx-60 p-5 font-semibold">
               <a href="" className="flex items-center gap-2">
                 See all listings <img src={Path1} alt="" className="h-fit" />
               </a>
