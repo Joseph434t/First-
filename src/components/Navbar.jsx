@@ -27,24 +27,19 @@ export default function Navbar() {
         <ul class="hidden md:flex gap-10 text-white items-center">
           <Link to="/about">About</Link>
           <Link to="/services">
-            <a href="">Nav Link</a>
+            Nav Link
           </Link>
           <Link to="/projects">
-            <a href="">Nav Link</a>
+            Nav Link
           </Link>
           <Link to="/blog">
-            <a href="">Nav Link</a>
+            Nav Links
           </Link>
-          <Link to="" class="px-4 py-3 bg-yellow-500 text-black rounded-tr-2xl">
-            <a href="" className="flex items-center ">
+          <Link to="" class="px-4 py-3 bg-yellow-500 text-black rounded-tr-2xl flex items-center">
               Work with us <img src={path} alt="" className="h-fit ml-2" />
-            </a>
           </Link>
         </ul>
-        <div
-          className="block md:hidden cursor-pointer"
-          onClick={toggleMenu}
-        >
+        <div className="block md:hidden cursor-pointer" onClick={toggleMenu}>
           <div className="w-10 h-1 bg-white mb-1"></div>
           <div className="w-10 h-1 bg-white mb-1"></div>
           <div className="w-10 h-1 bg-white"></div>
