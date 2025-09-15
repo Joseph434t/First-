@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav class="flex justify-between sm:flex justify-between p-7 px:10 md:px-50 items-center">
+      <nav class="flex sm:flex justify-between p-7 px:10 md:px-50 items-center">
         <div class="flex gap-2 items-center">
           <Link to="/" className="flex gap-2 items-center">
             <img src={shape} alt="" class="h-10" />
