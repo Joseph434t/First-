@@ -25,21 +25,21 @@ import exp4 from "../assets/images/Exp5.png";
 
 export default function About() {
   return (
-    <div className="bg-gradient-to-tr from-black from-30% to-yellow-500 to-150% h-50">
+    <div className=" bg-gradient-to-tr from-black from-30% to-yellow-500 to-150% h-50">
       <Navbar />
       <hr className="border-gray-500" />
-      <div className="flex justify-between px-50 pt-4">
+      <div className="flex justify-between md:px-50 pt-4">
         <div className="text-left">
-          <h1 className=" text-white text-3xl font-semibold">Modern House</h1>
+          <h1 className=" text-white text-2xl md:text-3xl font-semibold">Modern House</h1>
           <p class="text-gray-500">3002 Foster Ave, Brooklyn, NY 11210, USA</p>
         </div>
         <div class="text-right">
-          <p className="text-white font-bold text-3xl">$450,000</p>
-          <p className="text-gray-500 text">$2,800/sq ft</p>
+          <p className="text-white font-bold text-2xl md:text-3xl">$450,000</p>
+          <p className="text-gray-500">$2,800/sq ft</p>
         </div>
       </div>
-      <div className="flex gap-10 px-25 pt-20">
-        <img src={img} alt="" />
+      <div className="md:flex gap-10 md:-25 pt-20">
+        <img src={img} alt="" className="pb-10"/>
         <div className="rounded-xl gap-3 p-5">
           <div className="bg-gray-100  rounded-xl p-5">
             <div className="flex items-center gap-2">
@@ -68,7 +68,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div class="flex px-25 pt-5 gap-6">
+      <div class="grid grid-cols-3 gap-2 md:flex md:px-25 pt-5 md:gap-6">
         <img src={img1} alt="" className="h-20 w-20" />
         <img src={img2} alt="" className="h-20 w-20" />
         <img src={img3} alt="" className="h-20 w-20" />
@@ -77,7 +77,7 @@ export default function About() {
         <img src={img6} alt="" className="h-20 w-20" />
         <img src={img7} alt="" className="h-20 w-20" />
       </div>
-      <div class="px-25 pt-15 ">
+      <div class="md:px-25 pt-15 ">
         <h2 className="text-4xl font-semibold pb-10">Details</h2>
         <div className="flex items-center">
           <button class="flex justify-center items-center gap-2 border-1 w-55 h-20">
@@ -98,7 +98,7 @@ export default function About() {
           </button>
         </div>
       </div>
-      <div className="pt-15 px-25 pb-10">
+      <div className="pt-15 md:px-25 pb-10">
         <h2 className="font-semibold text-4xl pb-8">Description</h2>
         <div className="max-w-200">
           <hr class="px-25 pt-10" />
@@ -122,10 +122,10 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className="px-25 pb-15">
+      <div className="md:px-25 pb-15">
         <h2 className="font-semibold text-4xl pb-8">Features</h2>
         <hr className="max-w-200" />
-        <div className="flex items-center gap-45">
+        <div className="flex items-center md:gap-45">
           <ul className="text-gray-500 pt-10">
             <li className="flex items-center gap-2 pb-5">
               {" "}
@@ -209,7 +209,7 @@ export default function About() {
           </ul>
         </div>
       </div>
-      <div class="px-25">
+      <div class="md:px-25">
         <img src={line} alt="" />
         <h2 className="font-semibold text-4xl pb-20">Similar Listings</h2>
       </div>
@@ -234,7 +234,7 @@ function Carousel() {
   }, [totalSlides]);
 
   return (
-    <div className="relative w-full px-25 mx-auto overflow-hidden">
+    <div className="relative w-full md:px-25 mx-auto overflow-hidden">
       <div
         className="flex gap-5 transition-transform duration-700 ease-in-out"
         style={{
