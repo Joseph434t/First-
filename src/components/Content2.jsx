@@ -4,10 +4,10 @@ import path2 from "../assets/icons/Path2.png"
 export default function () {
   return (
     <div className="bg-linear-to-tr from-black from-15% to-yellow-500 to-180% h-120">
-      <div class="text-white text-center p-20">
-        <img src={line} alt="" class="px-130 pb-7" />
-        <h1 class="font-bold text-5xl pb-5">You’re in good hands</h1>
-        <p class="text-l px-100">
+      <div class="text-white text-center p-10 md:p-20">
+        <img src={line} alt="" class="px-17 md:px-130 mb-5 md:pb-7" />
+        <h1 class="font-semibold md:font-bold text-5xl pb-5">You’re in good hands</h1>
+        <p class="text-lg mt-3 md:px-100">
           Torquatos nostros? quos dolores eos, qui dolorem ipsum per se texit,
           ne ferae quidem se repellere, idque instituit docere sic: omne animal,
           simul atque integre iudicante itaque aiunt hanc quasi involuta

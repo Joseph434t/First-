@@ -6,10 +6,10 @@ import Line from "../assets/icons/Line.png";
 export default function ContentFoot() {
   return (
     <div>
-      <div className="flex mt-40">
-        <div class="mt-25 px-25">
+      <div className="md:flex mt-30 md:mt-40">
+        <div class="mt-25 md:px-25">
           <img src={Line} alt="" class="mb-7" />
-          <h1 class="max-w-200 text-6xl font-semibold">You’re in good hands</h1>
+          <h1 class="max-w-200 text-4xl md:text-6xl font-semibold">You’re in good hands</h1>
           <p class="max-w-190 pt-7 text-xl">
             Torquatos nostros? quos dolores eos, qui dolorem ipsum per se texit,
             ne ferae quidem se repellere, idque instituit docere sic: omne
@@ -23,7 +23,7 @@ export default function ContentFoot() {
           </p>
         </div>
         <div>
-          <img src={img1} alt="" class=" w-180" />
+          <img src={img1} alt="" class="pt-20 w-100 md:w-180" />
         </div>
       </div>
     </div>
