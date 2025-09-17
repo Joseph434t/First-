@@ -26,7 +26,7 @@ export default function () {
               disserendum et harum quidem exercitus quid.
             </p>
 
-            <p class="mx-20 mt-10 bg-white md:mx-60 p-5 font-semibold">
+            <p class="mx-20 mt-10 bg-white md:mx-60 p-5 font-semibold md:mt-27">
               <Link className="flex items-center gap-2">
                 See all listings <img src={Path1} alt="" className="h-fit" />
               </Link >
