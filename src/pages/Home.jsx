@@ -9,7 +9,7 @@ import Testimonail from "../components/Testimonial";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header />
       <Content />
       <Apartments />
