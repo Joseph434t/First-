@@ -22,6 +22,7 @@ import exp1 from "../assets/images/Exp1.png";
 import exp2 from "../assets/images/Exp2.png";
 import exp3 from "../assets/images/Exp3.png";
 import exp4 from "../assets/images/Exp5.png";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -46,7 +47,7 @@ export default function About() {
               <img src={avatar} alt="" className="h-12" />
               <div>
                 <p>Kayley Hall</p>
-                <p className=" text-yellow-500">View Profile</p>
+                <Link to="" className=" text-yellow-500">View Profile</Link>
               </div>
             </div>
           </div>
